@@ -5,7 +5,7 @@ import { getAllProjectApi } from '../services/allApi'
 import Header from '../components/Header'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import ProjectCard from '../components/Projectcard'
+import ProjectCard from '../components/ProjectCard'
 
 const Project = () => {
   const [allProject, setAllproject] = useState([])
