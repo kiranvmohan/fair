@@ -52,7 +52,7 @@ const Project = () => {
               <div className='col-md-4'></div>
               <div className='col-md-4 d-flex align-items-center'>
                 <input type="text" className='form-control bg-white' placeholder='Search by Technologies' onChange={(e) => setSearchKey(e.target.value)} />
-                <i class="fa-solid fa-magnifying-glass text-warning" style={{ margin: '-30px' }}></i>
+                <i className="fa-solid fa-magnifying-glass text-warning" style={{ margin: '-30px' }}></i>
               </div>
               <div className='col-md-4'></div>
             </div>
@@ -68,13 +68,16 @@ const Project = () => {
               }
 
             </div>
-          </div> :
-          <div><p>nothing to display</p>
+          </div> :<p>Nothing to Display</p>
+          }
+
+          
+          <div>
 
 
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7flifRL3Jm3j6cfHMGtPt07h8RDQeeNJijw&s" alt="" height={'400px'} /><p className='mt-3 mb-3 fs-5 fw-bold'>
             <Link to={'/login'} style={{textDecoration:'none'}}>LOGIN</Link> to VIEW MORE PRODUCTS</p></div>
-      }
+      
 
 
     </>

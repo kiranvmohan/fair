@@ -122,23 +122,23 @@ else{
             </div>
             <div className='col-md-6'>
               <div className='mt-3'>
-                <input type="text" placeholder='Project Title' className='form-control bg-light' onChange={(e) => setProjectDetails({ ...projectDetails, title: e.target.value })}
+                <input type="text" placeholder='Project Title' className='form-control bg-dark' onChange={(e) => setProjectDetails({ ...projectDetails, title: e.target.value })}
                   value={projectDetails.title} />
               </div>
               <div className='mt-3'>
-                <input type="text" placeholder='Language' className='form-control bg-light' onChange={(e) => setProjectDetails({ ...projectDetails, language: e.target.value })}
+                <input type="text" placeholder='Language' className='form-control bg-dark' onChange={(e) => setProjectDetails({ ...projectDetails, language: e.target.value })}
                   value={projectDetails.language} />
               </div>
               <div className='mt-3'>
-                <input type="text" placeholder='Github Link' className='form-control bg-light' onChange={(e) => setProjectDetails({ ...projectDetails, githubLink: e.target.value })}
+                <input type="text" placeholder='Github Link' className='form-control bg-dark' onChange={(e) => setProjectDetails({ ...projectDetails, githubLink: e.target.value })}
                   value={projectDetails.githubLink} />
               </div>
               <div className='mt-3'>
-                <input type="text" placeholder='Website Link' className='form-control bg-light' onChange={(e) => setProjectDetails({ ...projectDetails, websiteLink: e.target.value })}
+                <input type="text" placeholder='Website Link' className='form-control bg-dark' onChange={(e) => setProjectDetails({ ...projectDetails, websiteLink: e.target.value })}
                   value={projectDetails.websiteLink} />
               </div>
               <div className='mt-3'>
-                <textarea name="" id="" placeholder='Project Overview' className='form-control bg-light' onChange={(e) => setProjectDetails({ ...projectDetails, overview: e.target.value })}
+                <textarea name="" id="" placeholder='Project Overview' className='form-control bg-dark' onChange={(e) => setProjectDetails({ ...projectDetails, overview: e.target.value })}
                   value={projectDetails.overview}></textarea>
               </div>
             </div>
@@ -148,7 +148,7 @@ else{
           <Button variant="secondary" onClick={handleClear}>
             clear
           </Button>
-          <Button variant="primary" onClick={AddProject}>
+          <Button variant="secondary" onClick={AddProject}>
             Add Project
           </Button>
         </Modal.Footer>

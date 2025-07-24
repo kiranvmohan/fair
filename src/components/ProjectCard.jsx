@@ -19,7 +19,7 @@ function ProjectCard ({projectData}){
         <Card.Img variant="top" src={`${base_url}/uploads/${projectData.projectImage}`}  />
         <Card.Body>
           <Card.Title>{projectData.title}</Card.Title>
-          <Button variant="primary">Go somewhere</Button>
+          <Button variant="danger">Go somewhere</Button>
         </Card.Body>
       </Card>
 

@@ -57,10 +57,10 @@ function Home() {
         </div>
 
         <div className='container-fluid'>
-            <h3 className='text-center my-5'>EXPLORE YOUR PROJECT</h3>
+            <h3 className='text-center my-5 text-light'>EXPLORE YOUR PROJECT</h3>
             <div className='row mb-5'>
             <marquee scrollAmount={10}>                {/*marquee   for auto sliding text or images from left to right or right to left */}
-                <div className='d-flex'>
+                <div className='row'>
                 {
                     homeProject?.length> 0 &&
                     homeProject.map(item=>(
@@ -75,7 +75,7 @@ function Home() {
                 </div>
             </marquee>
 
-            <Link to='/projects' style={{textDecoration:'none'}}>
+            <Link to='/project' style={{textDecoration:'none'}}>
                 <h5 className='text-center text-warning my-5 fw-bold'>SEE MORE PROJECTS</h5>
             </Link>
             </div>
