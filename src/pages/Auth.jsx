@@ -130,7 +130,7 @@ const Auth = ({ registerPage }) => {
 
               <input type="text" value={userData.email} className='form-control bg-dark mt-3 w-75' placeholder='E-MAIL ID'
                 onChange={(e) => setUserData({ ...userData, email: e.target.value })} />
-              <input type="text" value={userData.password} className='form-control bg-dark mt-3 w-75' placeholder='PASSWORD'
+              <input type="password" value={userData.password} className='form-control bg-dark mt-3 w-75' placeholder='PASSWORD'
                 onChange={(e) => setUserData({ ...userData, password: e.target.value })} />
               {
                 isRegisterPage ?
