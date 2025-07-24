@@ -21,11 +21,11 @@ const Header = () => {
   }
   return (
     <>
-      <Navbar className="bg-success" style={{ overflow: "hidden" }}>
+      <Navbar className="bg-dark" style={{ overflow: "hidden" }}>
         <Container>
           <Navbar.Brand>
             <Link to={"/"}>
-            <h2 className='text-light'> <i class="fa-brands fa-stack-overflow me-3 text-warning"></i> Project Fair</h2>
+            <h2 className='text-light '> <i class="fa-brands fa-stack-overflow me-3 text-warning"></i> Project Fair</h2>
             </Link>
           </Navbar.Brand>
 
@@ -34,9 +34,9 @@ const Header = () => {
             isAuthToken?
 
 
-             <button className='btn bg-warning text-light' onClick={logout}>LOG OUT <i class="fa-solid fa-power-off "></i></button>
+             <button className='btn  text-light' onClick={logout}>LOG OUT <i class="fa-solid fa-power-off "></i></button>
              :<Link to='/login'>
-             <button className='btn bg-warning text-light'><i class="fa-solid fa-power-off ">LOGIN</i></button>
+             <button className='btn bg-danger text-light'><i class="fa-solid fa-power-off ">LOGIN</i></button>
 
              
              </Link>

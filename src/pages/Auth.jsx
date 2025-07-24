@@ -119,7 +119,7 @@ const Auth = ({ registerPage }) => {
             <div className='d-flex flex-column align-items-center' data-bs-theme='dark'>
               {
                 isRegisterPage &&
-                <input type="text" value={userData.name} className='form-control bg-light mt-4 w-75' placeholder='NAME'
+                <input type="text" value={userData.name} className='form-control bg-dark mt-4 w-75' placeholder='NAME'
 
                   onChange={(e) => setUserData({ ...userData, name: e.target.value })} />
 
@@ -128,15 +128,15 @@ const Auth = ({ registerPage }) => {
 
 
 
-              <input type="text" value={userData.email} className='form-control bg-light mt-3 w-75' placeholder='E-MAIL ID'
+              <input type="text" value={userData.email} className='form-control bg-dark mt-3 w-75' placeholder='E-MAIL ID'
                 onChange={(e) => setUserData({ ...userData, email: e.target.value })} />
-              <input type="text" value={userData.password} className='form-control bg-light mt-3 w-75' placeholder='PASSWORD'
+              <input type="text" value={userData.password} className='form-control bg-dark mt-3 w-75' placeholder='PASSWORD'
                 onChange={(e) => setUserData({ ...userData, password: e.target.value })} />
               {
                 isRegisterPage ?
-                  <button className='btn btn-success mt-4 w-75 ' onClick={handleRegister}>REGISTER</button> :
+                  <button className='btn btn-light mt-4 w-75 ' onClick={handleRegister}>REGISTER</button> :
 
-                  <button className='btn btn-success mt-4 w-75 ' onClick={handleLogin}>LOGIN</button>
+                  <button className='btn btn-light mt-4 w-75 ' onClick={handleLogin}>LOGIN</button>
               }
               <div>
                 {

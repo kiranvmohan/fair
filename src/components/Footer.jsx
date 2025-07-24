@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <>
-      <div className='d-flex justify-content-center align-items-center bg-success mt-5' style={{ height: '300px', width: '100%' }}>
-        <div className='d-flex justify-content-center align-items-evanly bg-success'>
+      <div className='d-flex justify-content-center align-items-center bg-dark mt-5' style={{ height: '300px', width: '100%' }}>
+        <div className='d-flex justify-content-center align-items-evanly '>
 
           <div style={{ width: "400px" }}>
             <div className='d-flex align-items-center'>

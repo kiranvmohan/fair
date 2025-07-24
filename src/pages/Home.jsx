@@ -30,7 +30,7 @@ function Home() {
     })
   return (
     <>
-        <div className="container-fluid bg-warning p-5" style={{width:'100%',height:'100vh'}}>
+        <div className="container-fluid p-5" style={{width:'100%',height:'100vh'}}>
             <Row className='mt-5'>
                 <Col md={6} lg={6} className='d-flex justify-content center align-items-center flex-column'>
                     <div>
